@@ -96,3 +96,4 @@ curl -X GET http://localhost:8000/user_path \
 ## Notes
 - Ensure Redis is running for token management
 - Initial roles are loaded from `fixture/roles.json`
+- You can change the session timeout from `settings.py`
